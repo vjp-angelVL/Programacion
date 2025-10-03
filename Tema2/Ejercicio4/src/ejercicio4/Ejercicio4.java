@@ -6,7 +6,7 @@ package ejercicio4;
 
 /**
  *
- * @author alumno
+ * @author Ángel Vegas López
  */
 public class Ejercicio4 {
 
@@ -14,7 +14,18 @@ public class Ejercicio4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Datos de la asignatura y notas
+        String nombreAsignatura = "Programación";
+        float nota1 = 8.5f;
+        float nota2 = 7.0f;
+
+        // Calcular la media
+        float media = (nota1 + nota2) / 2;
+
+        // Mostrar resultados
+        System.out.println("Asignatura: " + nombreAsignatura);
+        System.out.println("Nota del primer examen: " + nota1);
+        System.out.println("Nota del segundo examen: " + nota2);
+        System.out.println("Nota media: " + media);
     }
-    
 }
