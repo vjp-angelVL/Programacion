@@ -37,6 +37,8 @@ public class Ejercicio32 {
 
         int monedas1 = cantidad;
 
+        
+       
         // Mostrar el resultado
         System.out.println(original + " Euros se descomponen en:");
         System.out.println(billetes50 + " billetes de 50");
