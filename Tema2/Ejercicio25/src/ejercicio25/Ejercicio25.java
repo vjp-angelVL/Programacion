@@ -11,30 +11,29 @@ package ejercicio25;
  */
 public class Ejercicio25 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         // Solicitar los tres números al usuario
         System.out.print("Por favor, introduzca el primer número: ");
-        int numero1 = scanner.nextInt();
+        int numero1 = entrada.nextInt();
 
         System.out.print("Por favor, introduzca el segundo número: ");
-        int numero2 = scanner.nextInt();
+        int numero2 = entrada.nextInt();
 
         System.out.print("Por favor, introduzca el tercer número: ");
-        int numero3 = scanner.nextInt();
+        int numero3 = entrada.nextInt();
 
         // Calcular la suma y el producto
         int suma = numero1 + numero2 + numero3;
         int producto = numero1 * numero2 * numero3;
 
-        // Mostrar los resultados
+        // Muestro los resultados
         System.out.println("La suma de los números introducidos es: " + suma);
         System.out.println("El producto de los números introducidos es: " + producto);
 
-        scanner.close();
     }
 }
 
-    }
+    
 
 

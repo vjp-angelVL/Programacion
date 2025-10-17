@@ -11,11 +11,11 @@ import java.util.Scanner;
  */
 public class Ejercicio32 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         // Solicitar la cantidad al usuario
         System.out.print("Por favor, indique una cantidad de dinero: ");
-        int cantidad = scanner.nextInt();
+        int cantidad = entrada.nextInt();
 
         int original = cantidad;
 
@@ -47,8 +47,6 @@ public class Ejercicio32 {
         System.out.println(billetes5 + " billetes de 5");
         System.out.println(monedas2 + " monedas de 2 euros");
         System.out.println(monedas1 + " monedas de 1 euro");
-
-        scanner.close();
     }
 }
 

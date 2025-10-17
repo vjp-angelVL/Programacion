@@ -13,23 +13,21 @@ package ejercicio.pkg23;
 
 public class Ejercicio23 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         // Solicitar precio del producto
         System.out.print("Por favor, introduzca el precio del modelo de ordenador que desea comprar:\n");
-        double precio = scanner.nextDouble();
+        double precio = entrada.nextDouble();
 
         // Solicitar número de unidades
         System.out.print("¿Cuántas unidades quiere llevarse? ");
-        int unidades = scanner.nextInt();
+        int unidades = entrada.nextInt();
 
         // Calcular el precio total
         double total = precio * unidades;
 
-        // Mostrar el resultado
+        // Muestro el resultado
         System.out.printf("El precio total de su compra es de: %.2f Euros.\n", total);
-
-        scanner.close();
     }
 }
 

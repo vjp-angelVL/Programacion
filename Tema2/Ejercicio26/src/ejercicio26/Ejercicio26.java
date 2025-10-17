@@ -12,11 +12,11 @@ import java.util.Scanner;
  */
 public class Ejercicio26 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         // Solicitar el número al usuario
         System.out.print("Por favor, introduzca un número de 4 cifras: ");
-        int numero = scanner.nextInt();
+        int numero = entrada.nextInt();
 
         // Validar que el número tenga exactamente 4 cifras
         if (numero >= 1000 && numero <= 9999) {
@@ -35,10 +35,9 @@ public class Ejercicio26 {
             System.out.println("El número introducido no tiene 4 cifras.");
         }
 
-        scanner.close();
     }
 }
 
-    }
+    
     
 

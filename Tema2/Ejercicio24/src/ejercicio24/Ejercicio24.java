@@ -11,40 +11,39 @@ package ejercicio24;
  */
 public class Ejercicio24 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
-        // Solicitar las notas al usuario
+        // Solicito las notas al alumno
         System.out.print("Por favor, introduzca la nota de Programación: ");
-        double programacion = scanner.nextDouble();
+        double programacion = entrada.nextDouble();
 
         System.out.print("Introduzca la nota de Lenguajes de Marcas: ");
-        double lenguajesMarcas = scanner.nextDouble();
+        double lenguajesMarcas = entrada.nextDouble();
 
         System.out.print("Introduzca la nota de Bases de Datos: ");
-        double basesDatos = scanner.nextDouble();
+        double basesDatos = entrada.nextDouble();
 
         System.out.print("Introduzca la nota de Entornos de Desarrollo: ");
-        double entornosDesarrollo = scanner.nextDouble();
+        double entornosDesarrollo = entrada.nextDouble();
 
         System.out.print("Introduzca la nota de Sistemas Informáticos: ");
-        double sistemasInformaticos = scanner.nextDouble();
+        double sistemasInformaticos = entrada.nextDouble();
 
         System.out.print("Introduzca la nota de Inglés Profesional: ");
-        double inglesProfesional = scanner.nextDouble();
+        double inglesProfesional = entrada.nextDouble();
 
         System.out.print("Por último, introduzca la nota de Itinerario Personal para la Empleabilidad: ");
-        double itinerarioPersonal = scanner.nextDouble();
+        double itinerarioPersonal = entrada.nextDouble();
 
-        // Calcular la media
+        // Calculo la media
         double media = (programacion + lenguajesMarcas + basesDatos + entornosDesarrollo +
                         sistemasInformaticos + inglesProfesional + itinerarioPersonal) / 7;
 
-        // Mostrar la media con un decimal
+        // Muestro la media con un decimal
         System.out.printf("Su nota media del curso es de: %.1f\n", media);
 
-        scanner.close();
     }
 }
-}
+
 
     

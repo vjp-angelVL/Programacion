@@ -14,14 +14,14 @@ public class Ejercicio9 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Declarar constante PI y el radio
+        // Declaro la constante PI y el radio
         final double PI = Math.PI;
         double radio = 3.55;
 
-        // Calcular la longitud de la circunferencia
+        // Calculo la longitud de la circunferencia
         double longitud = 2 * PI * radio;
 
-        // Mostrar el resultado
+        // Muestro el resultado
         System.out.printf("La longitud de una circunferencia cuyo radio vale %.2f sería igual a: %.2f metros.\n", radio, longitud);
     }
 }

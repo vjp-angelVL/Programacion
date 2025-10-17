@@ -24,10 +24,10 @@ public class Ejerccicio17 {
         // Expresión c)
         int c = 20 * 10 / 2 - 20 / 5 * 3;
 
-        // Expresión d) - Aquí usamos double para evitar división entera
+        // Expresión d) - Aquí uso double para evitar división entera
         double d = 15.0 / 10 * 2 + 3.0 / 4 * 8;
 
-        // Mostrar resultados
+        // Muestro los resultados
         System.out.println("Resultados de las expresiones:");
         System.out.println("a) 25 + 20 – 15 = " + a);
         System.out.println("b) 20 * 10 + 15 * 10 = " + b);

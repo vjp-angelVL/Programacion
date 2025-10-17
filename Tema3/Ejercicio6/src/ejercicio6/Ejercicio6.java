@@ -11,10 +11,10 @@ import java.util.Scanner;
  */
 public class Ejercicio6 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         System.out.print("Por favor, introduzca la nota del alumno (0-10): ");
-        int nota = sc.nextInt();
+        int nota = entrada.nextInt();
 
         if (nota < 0 || nota > 10) {
             System.out.println("Error: La nota debe estar entre 0 y 10.");
@@ -28,7 +28,6 @@ public class Ejercicio6 {
             System.out.println("Sobresaliente.");
         }
 
-         scanner.close();
     }
 }
     

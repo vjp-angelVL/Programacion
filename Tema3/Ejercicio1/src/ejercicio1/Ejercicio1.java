@@ -12,10 +12,10 @@ import java.util.Scanner;
 public class Ejercicio1 {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         System.out.print("Por favor, introduzca un numero: ");
-        int numero = scanner.nextInt();
+        int numero = entrada.nextInt();
 
         if (numero > 0) {
             System.out.println("El número introducido es positivo");
@@ -24,8 +24,6 @@ public class Ejercicio1 {
         } else {
             System.out.println("El número introducido es cero");
         }
-
-        scanner.close();
     }
 }
 

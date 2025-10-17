@@ -6,7 +6,7 @@ package ejercicio14;
 
 /**
  *
- * @author alumno
+ * @author Ángel Vegas López
  */
 public class Ejercicio14 {
 
@@ -15,14 +15,14 @@ public class Ejercicio14 {
      */
 
     public static void main(String[] args) {
-        // Declarar constante PI y el radio
+        // Declaro la constante PI y el radio
         final double PI = Math.PI;
         double radio = 5.2;
 
-        // Calcular el área de la circunferencia: área = PI * radio^2
+        // Calculo el área de la circunferencia: área = PI * radio^2
         double area = PI * Math.pow(radio, 2);
 
-        // Mostrar el resultado
+        // Muestro el resultado
         System.out.printf("El área de una circunferencia cuyo radio vale %.1f sería igual a: %.2f centímetros cuadrados.\n", radio, area);
     }
 }

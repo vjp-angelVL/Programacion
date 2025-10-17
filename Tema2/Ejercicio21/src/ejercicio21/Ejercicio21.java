@@ -12,11 +12,11 @@ import java.util.Scanner; ;
 public class Ejercicio21 {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         // Solicitar al usuario el número de segundos
         System.out.println("Por favor, introduzca un número de segundos:");
-        long totalSegundos = scanner.nextLong();
+        long totalSegundos = entrada.nextLong();
 
         // Cálculos de días, horas, minutos y segundos
         long dias = totalSegundos / 86400; // 1 día = 86400 segundos
@@ -28,11 +28,9 @@ public class Ejercicio21 {
         long minutos = resto / 60;
         long segundos = resto % 60;
 
-        // Mostrar el resultado
+        // Muestro el resultado
         System.out.printf("%d segundos hacen un total de: %d días, %d horas, %d minutos y %d segundos.\n",
                 totalSegundos, dias, horas, minutos, segundos);
-
-        scanner.close();
     }
 }
 

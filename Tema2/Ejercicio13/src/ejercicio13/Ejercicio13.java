@@ -18,15 +18,15 @@ public class Ejercicio13 {
         int num1 = 1;
         int num2 = 2;
 
-        // Mostrar valores originales
+        // Muestro los valores originales
         System.out.println("La variable num1 contiene el valor " + num1 + " y la variable num2 contiene el valor " + num2 + ".");
 
-        // Intercambiar valores usando una variable auxiliar
+        // Intercambio los valores usando una variable auxiliar
         int aux = num1;
         num1 = num2;
         num2 = aux;
 
-        // Mostrar valores después del intercambio
+        // Muestro los valores después del intercambio
         System.out.println("Ahora, la variable num1 contiene el valor " + num1 + " y la variable num2 contiene el valor " + num2 + ".");
     }
 }

@@ -11,10 +11,10 @@ import java.util.Scanner;
  */
 public class Ejercicio8 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         System.out.print("Por favor, indique una cantidad de dinero: ");
-        int importe = scanner.nextInt();
+        int importe = entrada.nextInt();
 
         int original = importe;
 
@@ -56,10 +56,9 @@ public class Ejercicio8 {
             System.out.println("Monedas de 1 euro: " + monedas1);
         }
 
-        scanner.close();
     }
 }
 
     
     
-}
+

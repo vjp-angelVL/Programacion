@@ -22,7 +22,7 @@ public class Ejercicio15 {
         int minutos = restoSegundos / 60;
         int segundos = restoSegundos % 60;
 
-        // Mostrar el resultado
+        // Muestro el resultado
         System.out.printf("%,d segundos hacen un total de: %d horas, %d minutos y %d segundos.\n", tiempo, horas, minutos, segundos);
     }
 }
