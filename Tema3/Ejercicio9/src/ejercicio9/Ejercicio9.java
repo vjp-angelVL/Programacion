@@ -31,6 +31,7 @@ public class Ejercicio9 {
 
         System.out.println("El orden de los números introducidos es el " 
             + numeros[0] + " - " + numeros[1] + " - " + numeros[2] + " - " + numeros[3]);
+        
     }
 }
 
