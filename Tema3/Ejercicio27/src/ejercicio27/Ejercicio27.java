@@ -78,8 +78,6 @@ public class Ejercicio27 {
             catch(InputMismatchException e){ //Para que no pueda escribir un valor incorrecto
                     System.out.println("Has introducido un dato inválido");
             }
-       }
-        
-            
-                
-        }
+    }
+}
+   
