@@ -12,6 +12,13 @@ import java.util.Scanner;
  */
 public class Ejercicio7T4 {
     
+    /**
+     * @param num1
+     * @param num2
+     * @param num3
+     * @param num4
+     */
+    
     
     // Creo el metodo ordenar numero donde voy a ordenarlos de menor a mayor
     public static void ordenarNumero(int num1, int num2, int num3, int num4) {

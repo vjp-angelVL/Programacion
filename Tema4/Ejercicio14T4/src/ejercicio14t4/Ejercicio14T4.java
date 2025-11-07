@@ -12,6 +12,11 @@ import java.util.Scanner;
  */
 public class Ejercicio14T4 {
     
+     /**
+     * @param numero
+     * @return 
+     */
+    
      // Creo el metodo para comprobar que el numero es mayor que 0
     public static boolean comprobarNumero(int numero) {
         return numero > 0;
